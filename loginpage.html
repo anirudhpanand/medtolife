@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Page </title>
+        <style>
+            header {
+            background-color: #068;
+            color: white;
+            font-family: Tahoma;
+        }
+        header nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        header nav ul li {
+            margin: auto;
+            padding: 10px;
+        }
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background: url("../milo-weiler-I_9RR5i7QBE-unsplash.jpg") no-repeat;
+                background-size: cover;
+            }
+            .login-box {
+                transform: translate(-50%, -50%);
+                width: 280px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: white;
+            }
+            .login-box h1 {
+                float: left;
+                font-size: 40px;
+                border-bottom: 6px solid #4caf50;
+                margin-bottom: 50px;
+                padding: 13px 0;
+            }
+            .textbox {
+                overflow: hidden;
+                width: 100%;
+                font-size: 20px;
+                margin: 8px 0;
+                padding: 8px 0;
+                border-bottom: 1px solid #4caf50;
+            }
+            .textbox input {
+                border: none;
+                outline: none;
+                background: none;
+                color: white;
+                font-size: 18px;
+                width: 80%;
+                float: left;
+                margin: 0 10px;
+            }
+            .button {
+                background: none;
+                width: 100%;
+                border: 2px solid #4caf50;
+                color: white;
+                padding: 5px;
+                font-size: 18px;
+                margin: 12px 0;
+            }
+            .button:hover {
+                background-color: #4caf50;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="./index.html"> Index Page </a> </li>
+                    <li> <a href="./aboutme.html"> About Me </a> </li>
+                    <li> <a href="./registration.html"> Registration Page </a> </li>
+                    <li> <a href="./loginpage.html"> Login Page </a> </li>
+                    <li> <a href="./content.html"> Content Page </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="login-box">
+            <h1> Login </h1>
+            <div class="textbox">
+                <input type="text" name="" placeholder="Username">
+            </div>
+            <div class="textbox">
+                <input type="password" name="" placeholder="Password">
+            </div>
+            <button type="submit" class="button"> Login </button>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Let’s work with HTML Forms</title>
+        <style>
+            header {
+            background-color: #068;
+            color: white;
+            font-family: Tahoma;
+        }
+        header nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        header nav ul li {
+            margin: auto;
+            padding: 10px;
+        }
+        body {
+            background-image: url("./Apple_Macbook_air_2018_Stock_wallpapers01.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: white;
+        }
+        form {
+            background-color: rgba(0, 0, 0, 0.5);
+            width: 300px;
+            margin-left: 40%;
+            border-radius: 20px;
+            text-align: center;
+            font-family: Tahoma;
+            font-weight: bolder;
+            font-size: 18px;
+        }
+        form h1 {
+            background-color: #068;
+            padding: 10px;
+        }
+        form input {
+            border: none;
+            text-align: center;
+            background-color: transparent;
+            border-bottom: 5px solid green;
+            color: white;
+            font-weight: bold;
+        }
+        button {
+            width: 250px;
+            padding: 10px;
+            background-color: #068;
+            color: white;
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            border-radius: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="./index.html"> Index Page </a> </li>
+                    <li> <a href="./aboutme.html"> About Me </a> </li>
+                    <li> <a href="./registration.html"> Registration </a> </li>
+                    <li> <a href="./loginpage.html"> Login Page </a> </li>
+                    <li> <a href="./content.html"> Content Page </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <form action="./loginpage.html">
+            <h1> Registration </h1>
+            <label for="username">
+                <input type="text" id="username" name="username" placeholder="Username"/>
+            </label>
+            <br>
+            <br>
+            <label for="password">
+                <input type="password" id="password" name="password" placeholder="Password"/>
+            </label>
+            <br>
+            <br>
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="E - Mail"/>
+            </label>
+            <br>
+            <br>
+            <label for="tel">
+                <input type="tel" id="tel" name="tel" placeholder="Telephone" />
+            </label>
+            <br>
+            <br>
+            <label>
+                <input type = "url" id = "url" name = "url" placeholder="URL"/>
+            </label>
+            <br>
+            <br>
+            <br>
+            <br>
+            <label>
+                    <label for="firstName"> </label>
+                    <input type="text" name="firstName" id="firstName" placeholder="First Name"/>
+                    <br>
+                    <br>
+                    <label for="lastName"> </label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Last Name"/>
+                    <br>
+                    <br>
+                    <!-- This button will reset the form -->
+                    <button type="reset"> Reset Name </button>
+                    <button type="submit"> Submit the form </button>
+            </label>
+            <br>
+            <br>
+            <h3> How do you want to recieve the registration confirmation certificate? </h3>
+            <br>
+            <br>
+            <label>
+                    <label for="courier sevice"> Courier Service
+                    <input type="checkbox" name="checkbox" id="checkbox" checked>
+                    <label for="speed post service"> Speed Post Service
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="fax"> Fax Copy
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <br>
+                    <br>
+            </label>
+        </form>
+    </body>
+</html>

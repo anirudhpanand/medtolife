@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: aliceblue;
+            font-family: Verdana;
+        }
+        .pharmacy {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 35%;
+            height: max-content;
+            grid-template-areas:
+            "labtests medicines"
+            "storelocator consultadoctor";
+            margin: 10%;
+            gap: 2rem;
+        }
+        .labtests {
+            grid-area: labtests;
+            border: 3px solid;
+            background-color: bisque;
+        }
+        .medicines {
+            grid-area: medicines;
+            border: 3px solid;
+            background-color: bisque;
+        }
+        .storelocator {
+            grid-area: storelocator;
+            border: 3px solid;
+            background-color: bisque;
+        }
+        .consultadoctor{
+            grid-area: consultadoctor;
+            border: 3px solid;
+            background-color: bisque;
+        }
+        img {
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li> <a href=""> Index Page </a> </li>
+                <li> <a href="./aboutme.html"> About Me </a> </li>
+                <li> <i class="fas fa-user"> </i> <a href="./registration.html"> Registration Page </a> </li>
+                <li> <a href="./loginpage.html"> Login Page </a> </li>
+                <li> <a href="./contactus.html"> Contact Us </a> </li>
+                <li> <a href="./content.html"> Content Page </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="pharmacy">
+        <div class="labtests">
+            <div class="image">
+                <img src="../thisisengineering-raeng-mF6gB6hV5OU-unsplash.jpg" alt="">
+            </div>
+            <div class="text">
+                <p> Lab Tests </p>
+            </div>
+        </div>
+        <div class="medicines">
+            <div class="image">
+                <img src="../thisisengineering-raeng-mF6gB6hV5OU-unsplash.jpg" alt="">
+            </div>
+            <div class="text">
+                <p> Lab Tests </p>
+            </div>
+        </div>
+        <div class="storelocator">
+            <div class="image">
+                <img src="../thisisengineering-raeng-mF6gB6hV5OU-unsplash.jpg" alt="">
+            </div>
+            <div class="text">
+                <p> Lab Tests </p>
+            </div>
+        </div>
+        <div class="consultadoctor">
+            <div class="image">
+                <img src="../thisisengineering-raeng-mF6gB6hV5OU-unsplash.jpg" alt="">
+            </div>
+            <div class="text">
+                <p> Lab Tests </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

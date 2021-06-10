@@ -1,0 +1,114 @@
+.main {
+    text-align: center;
+    color: black;
+    margin-top: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bolder;
+    padding: 10px;
+}
+.main p {
+    font-size: 18px;
+}
+.main button {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+body {
+    font-size: larger; 
+    font-family: 'Times New Roman', Times, serif;
+    margin: 300 px;
+    padding: 300 px;
+    border: black;
+    background-image: url("./bill-oxford-8u_2imJaVQs-unsplash\ \(2\).jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1 {
+    color: rgb(255, 0, 0);
+}
+button, button > a {
+    color: white;
+    background-color: blue;
+}
+header {
+    background-color: #068;
+    color: white;
+    font-family: Tahoma;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+header nav ul li {
+    margin: auto;
+    padding: 10px;
+}
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    font-family: sans-serif;
+}
+.box1 {
+box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.card_image {
+width: 100%;
+display: block;
+}
+.card_content {
+line-height: 1.5;
+font-size: 0.9m;
+padding: 15px;
+background: #fafafa;
+}
+.card_content >p:first-of-type {
+margin-top: 0;
+}
+.card_content >p:last-of-type {
+margin-bottom: 0;
+}
+.card_info {
+padding: 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #eee;
+font-size: 0.8m;
+border-bottom: 2px solid #ccc;
+}
+.card_link {
+color: #64968c;
+text-decoration: none;
+}
+.card_link:hover{
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
